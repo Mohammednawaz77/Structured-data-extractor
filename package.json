@@ -1,0 +1,21 @@
+{
+  "name": "haqdarshak-scheme-normalizer-mern",
+  "version": "1.0.0",
+  "description": "Full-stack MERN system for transforming messy government scheme documents into structured benefit rows and eligibility AST rules with zero-guessing guardrails.",
+  "scripts": {
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "test": "cd backend && npm test",
+    "build": "cd backend && npm run build && cd ../frontend && npm run build"
+  },
+  "keywords": [
+    "haqdarshak",
+    "social-welfare",
+    "rule-engine",
+    "ast",
+    "document-processing",
+    "mern"
+  ],
+  "author": "Senior Developer",
+  "license": "MIT"
+}
